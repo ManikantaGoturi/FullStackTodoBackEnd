@@ -1,0 +1,29 @@
+POST http://localhost:3000/api/todos/
+Content-Type: application/json
+
+[
+    {
+        "todoName": "ReactJs",
+        "isDone": "true",
+        "createdAt": "23-01-2023",
+        
+    },
+    {
+        "todoName": "NodeJs",
+        "isDone": "false",
+        "createdAt": "24-01-2023",
+        
+    },
+    {
+        "todoName": "ExpressJs",
+        "isDone": "true",
+        "createdAt": "25-01-2023",
+    }
+]
+
+#####################################
+
+
+GET  http://localhost:3000/api/todos/
+
+
